@@ -4,6 +4,6 @@
     imports = [
       "${inputs.nixpkgs}/nixos/modules/misc/nixpkgs.nix"
     ];
-    nixpkgs.hostPlatform = system;
+    nixpkgs.system = system;
   });
 }
